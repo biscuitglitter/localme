@@ -1,0 +1,1 @@
+small quick project to teach myself how to use the localStorage API
