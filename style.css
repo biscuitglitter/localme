@@ -37,7 +37,7 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 #container {
-    margin: 50px;
+   margin: 20px;
     margin-top: 70px;
     display: flex;
     flex-direction: column;
@@ -45,11 +45,22 @@ p, h1, h2, h3, h4, h5, h6 {
     gap: 15px;
 }
 
-#button {
+#set-data, #get-data {
   background: #fff;
   outline: none;
 }
 
-#button, input {
+#set-data, #get-data, input {
   border: 0.5px solid grey;
+}
+
+#buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+#items-collector {
+  display: flex;
+  flex-direction: column;
 }
